@@ -1,6 +1,6 @@
 package com.example.myapplication;
 
-public class dog implements animal {
+public class pies implements animal {
 
     @Override
     public String getName() {
@@ -9,6 +9,6 @@ public class dog implements animal {
 
     @Override
     public int getSoundResId() {
-        return R.raw.dog;
+        return R.raw.pies;
     }
 }
