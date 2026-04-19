@@ -19,9 +19,9 @@ public class MainActivity extends AppCompatActivity {
         RecyclerView recyclerView = findViewById(R.id.recyclerView);
 
         List<animal> animals = new ArrayList<>();
-        animals.add(new dog());
-        animals.add(new cat());
-        animals.add(new cow());
+        animals.add(new pies());
+        animals.add(new kot());
+        animals.add(new krowa());
 
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         recyclerView.setAdapter(new animalAdapter(animals));
